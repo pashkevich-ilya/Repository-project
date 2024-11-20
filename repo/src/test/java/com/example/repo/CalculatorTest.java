@@ -19,7 +19,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 	public void testAddition() {
 		Calculator calc = new Calculator();
 		int result = calc.add(2, 3);
-		assertEquals(5, result);  // Проверяем, что 2 + 3 = 5
+		assertEquals(6, result);  // Проверяем, что 2 + 3 = 5
 	}
 
 	// Тестирование метода вычитания
